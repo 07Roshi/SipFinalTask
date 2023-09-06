@@ -1,0 +1,33 @@
+{
+  "name": "sipfinaltask",
+  "version": "1.0.0",
+  "description": "Final Project of Skill Lab of 4th Sem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/07Roshi/SipFinalTask.git"
+  },
+  "author": "Shetty Roshith Raghurama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/07Roshi/SipFinalTask/issues"
+  },
+  "homepage": "https://github.com/07Roshi/SipFinalTask#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-flash-message": "^3.0.2",
+    "express-session": "^1.17.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
